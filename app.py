@@ -7,7 +7,7 @@ st.set_page_config(page_title="Ladosi Tirta - Pindah Alamat", page_icon="🚀")
 st.info("### **APLIKASI TELAH DI TINGKATKAN MENJADI LEBIH LENGKAP**")
 
 # 2. Teks biasa
-st.write("Silakan lanjut ke platform utama Ladosi Tirta sekarang untuk mengakses fitur terbaru.")
+st.write("Silakan lanjut klik tombol LADOSI-TIRTA sekarang untuk mengakses fitur terbaru.")
 
 # 3. Link Tombol (Membuka di Tab Baru)
 st.markdown("""
@@ -24,6 +24,6 @@ st.markdown("""
         width: 100%;
         box-sizing: border-box;
         ">
-        LADOSI TIRTA CIVIL ENG
+        LADOSI-TIRTA
     </a>
     """, unsafe_allow_html=True)
