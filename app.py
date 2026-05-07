@@ -4,7 +4,7 @@ import streamlit as st
 st.set_page_config(page_title="Ladosi Tirta - Pindah Alamat", page_icon="🚀")
 
 # 1. Pesan Besar dan Jelas (Warna Biru)
-st.info("### **APLIKASI TELAH PINDAH KE ALAMAT BARU YANG LEBIH LENGKAP**")
+st.info("### **APLIKASI TELAH DI TINGKATKAN MENJADI LEBIH LENGKAP**")
 
 # 2. Teks biasa
 st.write("Silakan lanjut ke platform utama Ladosi Tirta sekarang untuk mengakses fitur terbaru.")
@@ -24,6 +24,6 @@ st.markdown("""
         width: 100%;
         box-sizing: border-box;
         ">
-        Klik Di Sini Untuk Pindah
+        LADOSI TIRTA CIVIL ENG
     </a>
     """, unsafe_allow_html=True)
