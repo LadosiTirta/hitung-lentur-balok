@@ -6,8 +6,11 @@ st.set_page_config(page_title="Ladosi Tirta - Pindah Alamat", page_icon="🚀")
 # 1. Pesan Besar dan Jelas (Warna Biru)
 st.info("### **APLIKASI TELAH DI TINGKATKAN MENJADI LEBIH LENGKAP**")
 
-# 2. Teks biasa
-st.write("Silakan lanjut klik tombol LADOSI-TIRTA sekarang untuk mengakses fitur terbaru.")
+# 2. Teks dengan format khusus sebaris
+st.markdown(
+    'Silakan lanjut klik tombol <span style="color: #007bff; font-size: 1.2em; font-weight: bold;">LADOSI-TIRTA</span> sekarang untuk mengakses fitur terbaru.',
+    unsafe_allow_html=True
+)
 
 # 3. Link Tombol (Membuka di Tab Baru)
 st.markdown("""
