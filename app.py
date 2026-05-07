@@ -6,26 +6,24 @@ st.set_page_config(page_title="Ladosi Tirta - Pindah Alamat", page_icon="🚀")
 # 1. Pesan Besar dan Jelas (Warna Biru)
 st.info("### **APLIKASI TELAH PINDAH KE ALAMAT BARU YANG LEBIH LENGKAP**")
 
-st.write("Silakan klik tombol di bawah untuk mengakses fitur terbaru di platform utama kami.")
+# 2. Teks biasa (tidak bisa diklik)
+st.write("Silakan lanjut ke platform utama Ladosi Tirta sekarang untuk mengakses fitur terbaru.")
 
-# 2. Tombol Redirect yang Aman (Buka di Tab Baru agar tidak Loop)
+# 3. Link "Klik Di Sini" yang diubah wujudnya menjadi tombol biru besar
 st.markdown("""
-    <a href="https://ladositirta.streamlit.app" target="_self">
-        <button style="
-            background-color: #007bff;
-            color: white;
-            padding: 12px 24px;
-            border: none;
-            border-radius: 8px;
-            cursor: pointer;
-            font-size: 18px;
-            font-weight: bold;
-            width: 100%;
-            ">
-            Lanjut ke Ladosi Tirta Sekarang
-        </button>
+    <a href="https://ladositirta.streamlit.app" target="_self" style="
+        display: block;
+        background-color: #007bff;
+        color: white;
+        padding: 14px 24px;
+        text-decoration: none;
+        border-radius: 8px;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        width: 100%;
+        box-sizing: border-box;
+        ">
+        Klik Di Sini Untuk Pindah
     </a>
     """, unsafe_allow_html=True)
-
-# Tambahan pesan kecil jika tombol tidak berfungsi
-st.caption("Jika tombol tidak berfungsi, [klik di sini](https://ladositirta.streamlit.app)")
